@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>lsh235 Resume</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link href="../public/css/mainstyle.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="/">MyResume</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Home</a></li>
+      </ul>
+      </div>
+    </div>
+  </nav>
+  
+<div class="container text-center">    
+  <div class="row">
+    <div class="col-sm-3 well">
+     <% include ../sub/left.ejs %>
+      <p><strong>Project Period</strong></p>
+      <div class="alert alert-success fade in">
+        <p><strong>한국연구재단 정보시스템 운영 및 유지보수: 2013.04~2016.06</strong></p>
+      </div>
+      <p><strong>USE SKILLS</strong></p>
+      <div class="alert alert-success fade in">
+        <p><strong>개발 언어 : JAVA/JSP/javaScript</strong></p>
+        <p><strong></strong></p>
+        <p><strong>사용 프레임워크 : ibatis, spring, jquery,ajax</strong></p>
+        <p><strong></strong></p>
+		<p><strong>개발 환경 : websquare</strong></p>
+		<p><strong></strong></p>
+		<p><strong>사용 DB : ORACLE</strong></p>
+      </div>
+
+    </div>
+    <div class="col-sm-9">
+	    <div class="row">
+	        <div class="col-sm-12">
+	          <div class="panel panel-default text-left">
+	            <div class="panel-body"> 
+					<ul>
+			            <strong>개발 내용</strong>
+			        	<li>ibatis에서 rowHandler 메소드를 이용하여  List<vo> 형태가 아닌 각 row별로 데이터를 처리한다. </li>
+			        	<li>각 발생된 object를 spreadsheetwriter 클래스를 이용하여 xml파일을 작성한다.</li>
+			        	<li>XML파일과 템플릿용 엑셀 파일을 생성하여 그내용을 엑셀 파일에 담아 두 파일을 zip형식으로 압축시키고 확장자를 XLSX로 지정한다</li>
+		        	 </ul>
+	            </div>
+	          </div>
+	        </div>
+	      </div>
+    
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="panel panel-default text-left">
+            <div class="panel-body">
+            	 <img src="img/workProject5.JPG" class="img-responsive" alt="Cinque Terre"> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p></p>
+</footer>
+
+</body>
+</html>
